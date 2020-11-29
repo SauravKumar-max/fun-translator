@@ -3,9 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link href="./style.css" rel="stylesheet">
+    <title>Fun Translator</title>
 </head>
 <body>
-    
+    <div class="info">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Quod nesciunt veritatis hic deleniti maiores, at numquam quae 
+            aspernatur dolorum iure?
+        <button class="btn-ok">ok</button>
+    </p>
+    </div>
+    <nav>
+        <h1>Fun Translator</h1>
+    </nav>
+    <main>
+        <div>
+            <label for="type-select">Translate into </label>
+            <select name="type" id="type-select">
+                <option value="">&nbsp; Please choose an option &nbsp;</option>
+                <option value="shakespeare.json">Shakespeare</option>
+                <option value="groot.json">Groot</option>
+                <option value="minion.json">Minion</option>
+                <option value="yoda.json">Yoda</option>
+                <option value="ferb-latin.json">Ferb latin</option>
+                <option value="emoji.json">Emoji</option>
+            </select>
+
+            <textarea></textarea>
+            <button class="translate-btn">Translate</button>
+            <div class="translation-txt"></div>          
+        </div>
+    </main>
+
+    <footer></footer>
+    <script src="./app.js"></script>
 </body>
 </html>
