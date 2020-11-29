@@ -30,8 +30,8 @@ function translation(){
     .then(response => response.json())
     .then(json => {
           console.log(json);
-          const minionText = json.contents.translated;
-          translationTxt.innerHTML = minionText;
+          const transText = json.contents.translated;
+          translationTxt.innerHTML = transText;
     })
     .catch(errorHandler);
 }
