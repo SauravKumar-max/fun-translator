@@ -1,0 +1,100 @@
+/* background: center/cover no-repeat url('/media/cc0-images/hamster.jpg'); */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+    background-color: rgba(208, 222, 224, 0.712);
+}
+
+.info p{
+    border: solid 1px #000;
+    max-width: 200px;
+    background: #fff;
+    padding: 1rem;
+}
+
+.btn-ok{
+    font-size: 1rem;
+    padding: 0.3rem 0.7rem;
+}
+
+nav h1{
+    text-align: center;
+    background: crimson;
+    padding: 1rem 0;
+    font-size: 2.3rem;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;   
+    width: 100%;
+    padding: 1rem;
+}
+
+textarea{
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    margin-top: 1rem;
+    border: solid 1px #000;
+}
+
+.translation-txt{
+    width: 100%;
+    max-width: 400px;
+    height: 150px;
+    margin-top: 1rem;
+    border: solid 1px #000;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+select{
+    font-size: 0.9rem;
+    padding: 0.2rem;
+    font-weight: bold;
+}
+
+option{
+    font-size: 0.8rem;
+    background: rgb(247, 244, 244);
+}
+
+button{
+    display: block;
+    margin: auto;
+    font-size: 1.1rem;
+    padding: 0.3rem 2rem;
+    margin: 1rem 0 0 0;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.translated-txt{
+    width: 100%;
+    max-width: 550px;
+    height: 50px;
+    border: solid 1px #000;
+}
