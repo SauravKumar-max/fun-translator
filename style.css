@@ -59,7 +59,7 @@ textarea{
     height: 150px;
     margin-top: 1rem;
     border: solid 1px #000;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     padding: 0.5rem;
 }
@@ -70,6 +70,9 @@ textarea{
     height: 150px;
     margin-top: 1rem;
     border: solid 1px #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    padding: 0.5rem;
 } 
 
 label{
