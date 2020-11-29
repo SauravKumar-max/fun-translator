@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
 .info{
     display: flex;
     align-items: center;
@@ -20,7 +25,7 @@
 
 .info p{
     border: solid 1px #000;
-    max-width: 200px;
+    max-width: 300px;
     background: #fff;
     padding: 1rem;
 }
@@ -41,8 +46,10 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 2rem;   
+    flex-direction: column;
+    margin: 2rem auto;   
     width: 100%;
+    max-width: 800px;
     padding: 1rem;
 }
 
@@ -52,15 +59,18 @@ textarea{
     height: 150px;
     margin-top: 1rem;
     border: solid 1px #000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.5rem;
 }
 
-.translation-txt{
+ .translation-txt{
     width: 100%;
     max-width: 400px;
     height: 150px;
     margin-top: 1rem;
     border: solid 1px #000;
-}
+} 
 
 label{
     font-size: 1.2rem;
@@ -90,11 +100,4 @@ button{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.translated-txt{
-    width: 100%;
-    max-width: 550px;
-    height: 50px;
-    border: solid 1px #000;
 }
