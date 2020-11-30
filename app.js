@@ -4,7 +4,6 @@ const info = document.querySelector('.info');
 const translateBtn = document.querySelector('.translate-btn');
 const text = document.querySelector('textarea');
 const translationTxt = document.querySelector('.translation-txt');
-
 let url = 'https://api.funtranslations.com/translate/';
 
 function hideInfo(){
@@ -30,8 +29,9 @@ function translation(){
     .then(response => response.json())
     .then(json => {
           console.log(json);
+          translationTxt.textContent = "";
           const transText = json.contents.translated;
-          translationTxt.innerHTML = transText;
+          translationTxt.textContent = transText;
     })
     .catch(errorHandler);
 }
