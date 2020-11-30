@@ -1,5 +1,5 @@
 const dropdown = document.querySelector('#type-select');
-const btnOk = document.querySelector('.btn-ok');
+const btnClose = document.querySelector('.btn-close');
 const info = document.querySelector('.info');
 const translateBtn = document.querySelector('.translate-btn');
 const text = document.querySelector('textarea');
@@ -36,6 +36,6 @@ function translation(){
     .catch(errorHandler);
 }
 
-btnOk.addEventListener('click', hideInfo);
+btnClose.addEventListener('click', hideInfo);
 dropdown.addEventListener('change', dropdownValue);
 translateBtn.addEventListener('click', translation);
