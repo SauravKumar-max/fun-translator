@@ -29,7 +29,6 @@ function translation(){
     .then(response => response.json())
     .then(json => {
           console.log(json);
-          translationTxt.textContent = "";
           const transText = json.contents.translated;
           translationTxt.textContent = transText;
     })
